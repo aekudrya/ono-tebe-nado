@@ -1,1 +1,23 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  width: 100%;
+  height: 109px;
+  border: 1px solid red;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  list-style: circle;
+  border: 1px solid red;
+  background-color: red;
+}
+
+.header__links-list-item {
+
+}
