@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: row;
   gap: 16px;
-  font-size: 18px;
   list-style: circle;
 }
 
@@ -44,9 +43,8 @@
   justify-self: end;
   justify-content: left;
   align-self: flex-end;
-  width: 240px;
-  font-size: 18px;
-  line-height: 24.3px;
+  min-width: 240px;
+  line-height: 1.35;
 }
 
 .cover {
@@ -78,7 +76,7 @@
   color: #FFF;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%;
+  line-height: 1.15;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -128,7 +126,7 @@
   padding-right: 81px;
   color: #FFF;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
   text-align: center;
   text-transform: uppercase;
   word-spacing: 16px;
@@ -183,8 +181,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 430px;
-  height: 100%;
+  max-width: 430px;
   min-height: 450px;
   padding: 50px 40px;
 }
@@ -215,7 +212,7 @@
   color: #FFF;
   font-weight: 700;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 1.2;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -224,7 +221,7 @@
   z-index: 3;
   color: #FFF;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
 }
 
 .lots__card-list-item {
@@ -250,8 +247,8 @@
 
 .about__logo {
   justify-self: center;
-  width: 240px;
-  height: 240px;
+  min-width: 240px;
+  max-height: 240px;
   border-radius: 50%;
   background-color: #000;
 }
@@ -273,7 +270,7 @@
 
 .about__title {
   margin-top: 100px;
-  margin-bottom: 72px;
+  margin-bottom: 81px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -299,13 +296,14 @@
   font-size: 18px;
   text-align: center;
   list-style: none;
+  padding-left: 40px;
 }
 
 .footer__social-list {
   display: flex;
   flex-direction: row;
-  width: 240px;
-  height: 48px;
+  min-width: 240px;
+  max-height: 48px;
   list-style: none;
 }
 
