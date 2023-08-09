@@ -230,7 +230,7 @@
   display: grid;
   grid-template-columns: 430px auto;
   margin-bottom: 179px;
-  padding: 0 50px;
+  padding: 4px 50px;
 }
 
 .about__logo {
