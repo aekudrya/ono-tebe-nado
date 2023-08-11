@@ -11,6 +11,7 @@
   flex-direction: row;
   gap: 16px;
   list-style: circle;
+  white-space: nowrap;
 }
 
 .header__links-list-item {
@@ -165,9 +166,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-grow: 1;
   gap: 25px;
   list-style: none;
+}
+
+.lots__card-list_item {
+  flex-grow: 1;
+  flex-basis: 430px;
 }
 
 .lots__look-more-link {
@@ -183,7 +188,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 430px;
   min-height: 450px;
   padding: 50px 40px;
   background-repeat: no-repeat;
